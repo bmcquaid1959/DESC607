@@ -1,0 +1,15 @@
+---
+title: "W2_BeginningStats"
+author: "Bob"
+date: "9/5/2023"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Testing connection
+
+
+
