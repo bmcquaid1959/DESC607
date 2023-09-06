@@ -9,7 +9,36 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-## Testing connection
+## Introduction to Statistics
+
+* Start with [Chapter 1 - Intro to Data & Chapter 2 - Descriptive Measures](https://bookdown.org/lgpcappiello/introstats/introduction-to-data.html)
+* Finish with [Chapter 4 - Probability & Chapter 5 - Random Variables](https://bookdown.org/lgpcappiello/introstats/probability-concepts.html)
+  + More with [Probability and Random Variables](https://bookdown.org/speegled/foundations-of-statistics/prob.html)
+
+* [SimpleR - Using R for Introductory Statistics](https://cran.r-project.org/doc/contrib/Verzani-SimpleR.pdf)
+
+  + This "book" has a concise summary of lots of statstical stuff "to do," not really about "what it means."
+  
+## Visualizing Data
+
+* Start with [Chapter 2 - Visualizing your Data](https://bookdown.org/mikemahoney218/IDEAR/visualizing-your-data.html)
+
+## More about R and this prior stuff
+
+* peruse [Foundations of Statistics with R](https://bookdown.org/speegled/foundations-of-statistics/)
+
+## R and Statistics
+
+Lots of good sources, my personal favorites include:
+
+* [Geeks For Geeks R-Statistics](https://www.geeksforgeeks.org/r-statistics/)
+* [Guru99 R Tutorial for Beginners: Learn R Programming Language](https://www.guru99.com/r-tutorial.html)
+* [R for Data Science](https://r4ds.hadley.nz/)
+* [R Graphics Cookbook, 2e](https://r-graphics.org/)
+
+
+
+
 
 
 
