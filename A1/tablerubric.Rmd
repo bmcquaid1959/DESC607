@@ -1,0 +1,29 @@
+---
+title: "Untitled"
+author: "Bob"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+**Peer Evaluation Rubric: Graduate Student Team Case Analysis and Presentation**
+
+*This rubric is designed to assess individual contributions of team members in a graduate-level case analysis and presentation. Each category is assigned a point value, and the total points can be converted to a percentage for a final grade.*
+
+| **Criteria**                           | **Exceptional (5 points)**              | **Proficient (4 points)**             | **Competent (3 points)**               | **Developing (2 points)**              | **Limited (1 point)**                |
+|----------------------------------------|-----------------------------------------|----------------------------------------|----------------------------------------|----------------------------------------|--------------------------------------|
+| **Individual Contribution (30 points)**| Consistently exceeds expectations by taking a leadership role, contributing substantially to all aspects of the case analysis and presentation. | Consistently meets expectations by actively contributing to all aspects of the case analysis and presentation. | Generally meets expectations but may show inconsistency or occasional lapses in contribution to the team effort. | Demonstrates limited contribution, with noticeable gaps or inconsistency in participation. | Contributes minimally or not at all to the team effort, negatively impacting the overall project. |
+| **Team Collaboration (25 points)**      | Actively collaborates with team members, fostering a positive and inclusive team environment. | Collaborates effectively with team members, contributing to a positive team dynamic. | Generally collaborates with the team, but may exhibit occasional challenges in communication or teamwork. | Shows limited collaboration, with occasional conflicts or challenges in working with team members. | Fails to collaborate effectively with the team, leading to conflicts and hindering progress. |
+| **Communication Skills (20 points)**   | Demonstrates exceptional communication skills, expressing ideas clearly and effectively to team members. | Communicates effectively, conveying ideas clearly to team members. | Communicates competently, but may encounter occasional challenges in expressing ideas clearly. | Shows limited communication skills, resulting in occasional misunderstandings within the team. | Struggles to communicate effectively, leading to frequent misunderstandings and confusion. |
+| **Reliability and Timeliness (15 points)**| Consistently meets all deadlines and fulfills responsibilities promptly and reliably. | Generally meets deadlines and fulfills responsibilities in a timely manner. | Meets some deadlines but may show inconsistency or occasional delays in fulfilling responsibilities. | Faces challenges in meeting deadlines and may exhibit frequent delays in fulfilling responsibilities. | Fails to meet deadlines consistently, negatively impacting the team's progress. |
+| **Adaptability and Flexibility (10 points)**| Demonstrates exceptional adaptability, adjusting well to changes and challenges within the team. | Adapts effectively to changes and challenges within the team. | Generally adapts to changes but may show occasional resistance or difficulty adjusting. | Demonstrates limited adaptability, facing challenges in adjusting to changes within the team. | Struggles to adapt to changes, resulting in frequent resistance and disruptions. |
+
+**Overall Comments:**
+- **Strengths:** Highlight notable strengths and exceptional aspects of the team member's contributions.
+- **Areas for Improvement:** Provide constructive feedback on specific areas where improvements can be made.
+- **Recommendations:** Include recommendations for further development or areas to focus on in future team collaborations.
+
+*Note: Adjust point values based on the total points you want to assign to the peer evaluation, ensuring they align with the overall weighting for the team case analysis and presentation.*

@@ -1,0 +1,80 @@
+---
+title: "Assignment A1"
+author: "Bob"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library("tidyverse")
+library("readxl")
+library("rmarkdown")
+```
+
+## Assignment A1
+
+**DEADLINE: January 10, 2024 by 4:00 pm.**
+
+This assignment is to be completed prior to the first class session.
+
+### Install R and R Studio for your operating system
+
+1. Go to the [Posit website](https://posit.co/download/rstudio-desktop/) and follow the steps to:
+    a. Download and Install R.
+    b. Install RStudio
+2. Go to [Courses Assignments](https://courses.pepperdine.edu/portal/directtool/fea222ed-a9f9-4c9f-8f71-5efda0f213f7/) and download the attached R-project (it is a compressed file). 
+    a. Save the zip file somewhere you can find it - preferably a folder you created for this class(?).
+    b. Unzip the folder (again, where you can find it)
+    c. Open the *AssignmentA1.html* file and follow the instructions. You can open it in a browser.
+3. Change the name of the file titled "McQuaidBobA1.R" by replacing your lastname and firstname for mine.
+4. Open the file A1.Rproj in your unzipped folder. This will open the assignment A1 project I created for you in RStudio. 
+5. Go to the FILES tab in RStudio and open the r-script file (that you just renamed).
+    a. At the top of this file, I have pre-entered code to make life easier to get started coding. It automatically checks if the correct packages are available on your machine, installs them if they are not, and loads them into your project. Notice the list called **my_packages**. You can edit this list and add packages to it. Be sure to put package names in quotes and commas after all but the last one in the list. Also, upper and lower case matter in package names. Note: you won't have to do any of this for Assignment A1.
+    
+    ```{r eval=FALSE}
+        ## install and/or load packages ##########################
+        # from https://statisticsglobe.com/r-install-missing-packages-automatically
+        # from https://statisticsglobe.com/r-load-multiple-packages-at-once#:~:text=Load%20Multiple%20Packages%20at%20Once%20in%20R%20(Example),...%203%20Video,%20Further%20Resources%20%26%20Summary%20
+
+        # Specify your packages
+        my_packages <- c("tidyverse",
+                         "BSDA",
+                         "readxl",
+                         "magrittr",
+                         "rmarkdown")
+        # Extract not already installed packages from my_packages
+        # Install not already installed packages
+        # Load multiple packages
+        not_installed <- my_packages[!(my_packages %in% installed.packages()[ , "Package"])]
+        if(length(not_installed)) install.packages(not_installed)
+        lapply(my_packages, require, character.only = TRUE)
+
+        # clear environment and console
+        rm(list=ls())
+        cat("\014")
+    ```
+    b. In the A1 r-script file, highlight rows 1-20 and select CTRL-ENTER. This will install and load all the packages in the list.
+6. Select anywhere on line 23 and select CTRL-ENTER to load the dataset. Look at the Environment tab in RStudio and you will see the dataframe called **cereal** with 77 observations and 16 variables. This is from a csv file that is in the data folder in your project. You can open it in Excel if you'd like as well.
+
+
+### Now for the real work!
+
+Visit [Beginner R Exercises (& Solutions) to Get Started Programming](https://thedatastudent.com/beginner-r-exercises-solutions/) and implement the code inside your A1.r-script to answer the 30 questions he poses. You already loaded the Dataset from kaggle from line 23 so you can **SKIP HIS ITEMS 1 AND 2**. In other words, don't set the working directory or load the dataset again. 
+
+This will get you into exploring data using R and teach you some tricks along the way. He provides all the code under his list of questions.
+
+If you want to put some comments in your r-script file, simply enter a hashtag(#) and a space in front of your comment and those lines will not run.
+
+### Completing Assignment A1
+
+When you're done coding (congratulations!), 
+
+1. Save the r-script file you edited.
+2. Go to **File -> Close Project**.
+3. Go to finder or explorer and compress the folder titled A1. This will include all your project files and data in one compressed folder.
+4. Go to [Courses Assignments](https://courses.pepperdine.edu/portal/directtool/fea222ed-a9f9-4c9f-8f71-5efda0f213f7/) and upload your compressed folder to the assignment by the deadline.
+
+
+
+

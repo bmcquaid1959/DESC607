@@ -1,0 +1,59 @@
+---
+title: "01_SimpleLinearRegression"
+format: html
+editor: visual
+---
+
+I.  Introduction
+    A.  Brief explanation of regression analysis
+    B.  Purpose of the analysis
+        1. Understanding the Research Question
+        2. Identifying the research question that requires a linear regression analysis
+        3. Determining the dependent variable (response variable) and independent variable (predictor variable)
+    C.  Description of the dataset
+    D.  Data Collection and Variable Measurement
+        1. Gathering relevant data for the analysis
+        2. Ensuring the accuracy and reliability of data
+        3.Measurement scales for variables (nominal, ordinal, interval, ratio)
+II. Data Exploration
+    A.  Summary statistics
+    B.  Descriptive statistics for variables
+        1. Data visualization (scatter plots, histograms)
+    C.  Identify potential outliers or influential points
+III. Model Specification
+    A.  Definition of variables (dependent and independent)
+    B.  Formulation of the simple linear regression model
+        1. Understand why a simple linear regression model is appropriate
+        2. Consider the nature of the relationship between variables
+    C.  Assumptions of the simple linear regression model
+        1. Linearity: The relationship between X and the mean of Y is linear
+        2. Homoscedasticity: The variance of residual is the same for any value of X
+        3. Independence: Observations are independent of each other
+        4. Normality: For any fixed value of X, Y is normally distributed
+IV. Model Estimation
+    A.  Use of statistical software (e.g., R, Python, or others)
+    B.  Estimation of model parameters (slope and intercept)
+        1. Checking and ensuring linearity in the relationship
+        2. Introducing interaction terms when relevant
+    C.  Assessment of the model fit (e.g., R-squared value)
+V.  Interpretation of Results
+    A.  Significance of model parameters
+    B.  Interpreting the slope and intercept in the context of the problem
+    C.  Hypothesis testing for the significance of the model
+VI. Model Diagnostics
+    A.  Residual analysis
+        1. Checking for homoscedasticity
+        2. Examining normality of residuals
+        3. Detecting influential points
+    B.  Checking for multicollinearity (if applicable)
+    C.  Addressing potential issues identified in the diagnostics
+        1. Functional Form
+        2. Choosing the appropriate functional form for the relationship
+        3. Discussing when to transform variables (e.g., log transformations)
+VII. Conclusion 
+    A. Summary of key findings
+    B. Limitations of the analysis 
+    C. Suggestions for future research or improvements to the model
+VIII. References
+
+[Simple Linear Regression in R](http://www.sthda.com/english/articles/40-regression-analysis/167-simple-linear-regression-in-r/)
